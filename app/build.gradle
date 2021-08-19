@@ -53,4 +53,30 @@ dependencies {
 
     //Biblioteca para adicionar ler QRCode
     implementation "me.dm7.barcodescanner:zxing:1.9.13"
+
+    //Biblioteca para adicionar lista performatica ao aplicativo
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    //Biblioteca para adicionar cards ao aplicativo
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //Biblioteca para consumir webservice
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    //Biblioteca para realizar o parse json para objeto/objeto para json
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //Biblioteca para auxiliar o carregamento de imagens no aplicativo
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Biblioteca AAC
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+    //Injecao de dependencia KOIN
+    implementation "org.koin:koin-android-viewmodel:2.0.1"
+    implementation "org.koin:koin-android:2.0.1"
+
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
 }
