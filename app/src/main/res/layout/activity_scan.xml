@@ -45,14 +45,15 @@
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/containerPayments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:gravity="center|top"
         android:orientation="horizontal" />
 
-    <include layout="@layout/include_permissions" />
+    <include layout="@layout/include_permissions"
+        android:id="@+id/permissions"/>
 
-    <include layout="@layout/include_loading" />
+    <include layout="@layout/include_loading"
+        android:id="@+id/loading"/>
 </FrameLayout>

@@ -37,6 +37,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:id="@+id/rvPokemons"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <include layout="@layout/include_loading"/>
+    <include layout="@layout/include_loading"
+        android:id="@+id/loading"/>
 
 </FrameLayout>
