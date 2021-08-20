@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:background="#FFF"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/containerPokemon"
+    >
 
     <ImageView
         android:id="@+id/ivPokemon"
